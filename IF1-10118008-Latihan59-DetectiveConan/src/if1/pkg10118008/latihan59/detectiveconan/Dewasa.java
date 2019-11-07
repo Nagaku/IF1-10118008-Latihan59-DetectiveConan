@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package if1.pkg10118008.latihan59.detectiveconan;
+
+/**
+ *
+ * @author ASUS
+ */
+public class Dewasa extends Detective{
+
+	public Dewasa(String name, String jK, int umur) {
+		super(name, jK, umur);
+	}
+
+	@Override
+	public void pekerjaan() {
+		super.pekerjaan(); //To change body of generated methods, choose Tools | Templates.
+		System.out.println(" Profesional");
+	}
+	
+}
